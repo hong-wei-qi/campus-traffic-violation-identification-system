@@ -62,5 +62,8 @@ graph LR
     N --> O{5.2 成果展示與簡報製作};
     O --> P{5.3 專題成果發表};
     P --> Q(結束);
+
+classDef crit fill:#ffdddd,stroke:#d33,stroke-width:2px;
+  class A,B,C,D,G,H,I,K crit;
 ```
 
