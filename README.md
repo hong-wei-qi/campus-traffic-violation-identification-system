@@ -46,27 +46,27 @@ gantt
 ```mermaid
 graph LR
 
-subgraph
+subgraph "專題規劃"
     B[1.1 題目確認] --> C[1.2 期初報告撰寫];
     C --> D[1.3 專題架構確立與技術選型];
 end
-subgraph
+subgraph "系統分析與設計"
     D --> E[2.1 需求訪談];
     E --> F[2.2 資料蒐集與標註];
     E --> G[2.3 模型與演算法架構設計];
 end
-subgraph
+subgraph "系統開發"
     G --> H[3.1 前端開發];
     H --> I[3.2 後端開發];
     F --> J[3.3 模型訓練與優化];
 end
-subgraph
+subgraph "系統測試與整合"
     I --> K[4.1 單元測試與功能測試];
     J --> K;
     K --> L[4.2 系統整合測試];
     K --> M[4.3 成果驗收與問題修復];
 end
-subgraph
+subgraph "文件撰寫與發表"
     M --> N[5.1 期末報告撰寫];
     L --> N;
     N --> O[5.2 成果展示與簡報製作];
