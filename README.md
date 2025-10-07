@@ -42,7 +42,7 @@ gantt
 ```
 
 ```flowchart
-graph TD
+flowchart TD
     A(開始) --> B{1.1 題目確認};
     B --> C{1.2 期初報告撰寫};
     C --> D{1.3 專題架構確立與技術選型};
