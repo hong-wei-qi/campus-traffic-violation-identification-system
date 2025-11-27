@@ -1,3 +1,3 @@
 # ERD圖
 
-!(ERD)(ERD.SVG)
+![ERD](ERD.svg)
